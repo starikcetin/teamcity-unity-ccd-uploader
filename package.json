@@ -28,7 +28,8 @@
   },
   "types": "dist/index.d.ts",
   "files": [
-    "src"
+    "dist/**/*.js",
+    "CHANGELOG.md"
   ],
   "engines": {
     "node": ">=8.0.0"
