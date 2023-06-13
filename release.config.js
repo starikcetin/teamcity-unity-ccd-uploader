@@ -33,7 +33,7 @@ module.exports = {
         [
             "@semantic-release/changelog", 
             {
-                changelogTitle: "Teamcity Unity CCD Uploader Changelog",
+                changelogTitle: "# Teamcity Unity CCD Uploader Changelog",
             }
         ],
         "@semantic-release/npm",
