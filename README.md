@@ -56,8 +56,8 @@ Notes:
   
 | Name                  | Location     | Description                                                            | Type      | Example                                  |
 |---                    | ---          |---                                                                     |---        |---                                       |
-| `platforms`           | Both(!)      | Defines platform settings. See below for explanation of members.       | See below | See below                                |
-| `configPath`          | CLI(!)       | The path to the config file.                                           | `string`  | `PATH/TO/YOUR/CONFIG/FILE`               |
+| `platforms`           | Both (!)     | Defines platform settings. See below for explanation of members.       | See below | See below                                |
+| `configPath`          | CLI (!)      | The path to the config file.                                           | `string`  | `PATH/TO/YOUR/CONFIG/FILE`               |
 | `ucdReleaseNotes`     | CLI          | Release notes for creating a release in the target CCD bucket.         | `string`  | `Hello World!`                           |
 | `ucdVerbose`          | CLI          | Whether to pass `--verbose` flag to UCD.                               | `flag`    | Config: `true` CLI: `--ucdVerbose`       |
 | `teamcityHost`        | Config File  | Base URL of your Teamcity host.                                        | `string`  | `https://teamcity.mycompany.com/`        |
@@ -81,12 +81,12 @@ Notes:
 
 Members:
 
-| Name                         | Recommended Usage | Description                                                           | Type     | Example                       |
-|---                           | ---               |---                                                                    |---       |---                            |
-| `name`                       | Config-only       | The name of the platform.                                             | `string` | `Android`                     |
-| `teamcityArtifactsSubfolder` | Config-only       | Subfolder in Teamcity artifacts that contain the addressable bundles. | `string` | `unityAssetBundles`           |
-| `uploadSubfolder`            | Config-only       | Local subfolder to put the bundles in after download.                 | `string` | `Android`                     |
-| `teamcityBuildId`            | CLI-only          | Teamcity build ID for platforms to operate on.                        | `string` | `--Android 27845 --iOS 25432` |
+| Name                         | Location        | Description                                                           | Type     | Example                       |
+|---                           | ---             |---                                                                    |---       |---                            |
+| `teamcityBuildId`            | CLI (!)         | Teamcity build ID for platforms to operate on.                        | `string` | `--Android 27845 --iOS 25432` |
+| `name`                       | Config File (!) | The name of the platform.                                             | `string` | `Android`                     |
+| `teamcityArtifactsSubfolder` | Config File (!) | Subfolder in Teamcity artifacts that contain the addressable bundles. | `string` | `unityAssetBundles`           |
+| `uploadSubfolder`            | Config File (!) | Local subfolder to put the bundles in after download.                 | `string` | `Android`                     |
 
 Example `platforms` config file entry:
 
