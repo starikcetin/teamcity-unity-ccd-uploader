@@ -41,7 +41,7 @@
     "start:ts": "ts-node ./src/index.ts",
     "lint": "eslint --fix --quiet src/",
     "format": "prettier --loglevel silent --write src/",
-    "prepublishOnly": "build",
+    "prepublishOnly": "npm run build",
     "prepare": "husky install",
     "semantic-release": "semantic-release"
   },
