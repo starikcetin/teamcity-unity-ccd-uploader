@@ -1,16 +1,29 @@
 {
   "compilerOptions": {
+    "lib": [
+      "es2017",
+    ],
     "module": "commonjs",
+    "target": "es2017",
     "moduleResolution": "node",
-    "pretty": true,
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "target": "es2021",
+    "declaration": true,
     "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "pretty": true,
+    "sourceMap": true,
     "baseUrl": "./src",
-    "experimentalDecorators": true,
-    "strict": true
+    "rootDir": "./src",
+    "noEmit": false,
+    "incremental": false,
   },
-  "include": ["src/**/*.ts", "test/**/*.spec.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
 }
