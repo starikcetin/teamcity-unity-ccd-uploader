@@ -1,5 +1,12 @@
 # Teamcity Unity CCD Uploader Changelog
 
+## [1.0.3](https://github.com/starikcetin/teamcity-unity-ccd-uploader/compare/v1.0.2...v1.0.3) (2023-11-11)
+
+
+### Bug Fixes
+
+* bump axios from 1.4.0 to 1.6.0 ([#2](https://github.com/starikcetin/teamcity-unity-ccd-uploader/issues/2)) ([b35fddc](https://github.com/starikcetin/teamcity-unity-ccd-uploader/commit/b35fddc49151af85f078f7818f872e653d36a9b4))
+
 ## [1.0.2](https://github.com/starikcetin/teamcity-unity-ccd-uploader/compare/v1.0.1...v1.0.2) (2023-06-13)
 
 

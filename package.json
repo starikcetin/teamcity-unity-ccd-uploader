@@ -1,6 +1,6 @@
 {
   "name": "teamcity-unity-ccd-uploader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool for uploading Unity addressables bundles to CCD from Teamcity artifacts.",
   "repository": {
     "type": "git",
