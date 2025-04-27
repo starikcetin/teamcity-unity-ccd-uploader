@@ -23,7 +23,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4.3.0
+      - uses: actions/setup-node@v4.4.0
         with:
           cache: npm
           node-version-file: '.nvmrc'
